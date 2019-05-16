@@ -38,6 +38,8 @@ d. animation动画
 ## 四、 盒子尺寸四大家族
 
 1. 什么是替换元素？替换元素有哪些？
+
+    img, object, video, iframe,input, textara
 2.
 
 

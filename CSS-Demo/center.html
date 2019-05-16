@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .parent{
+            background-color: beige;
+        }
+        .son{
+            background-color:burlywood;
+        }
+    </style>
+    <style>
+        /* .son {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -50px;
+            margin-left: -50px;
+        } */
+        /* .parent{
+            position: relative;
+        }
+      
+        .son { 
+            width: 600px; height: 400px;
+            position: absolute; left: 50%; top: 50%;
+            transform: translate(-50%, -50%);    
+        } */
+    </style>
+
+    <style>
+        /* 方案1: 定宽，使用margin: 0 auto*/
+        /* .parent{
+            width: 600px;
+            height: 400px;
+        }
+        .son{
+            width: 300px;
+            height: 200px;
+            margin: 0 auto;
+        } */
+
+          /* 方案2: 定宽，使用margin: 0 auto*/
+        /* .parent{
+           text-align: center;
+        }
+        .son{
+            display: inline-block;
+        } */
+
+        /* 方案3: 绝对定位*/
+         .parent{
+            position: relative;
+        }
+        .son{
+            width: 600px; 
+            position: absolute; 
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }  
+
+         /* 方案4: flex布局*/
+         /* .parent{
+            display: flex;
+            justify-content: center;
+        } */
+
+
+       
+    </style>
+
+
+
+</head>
+<body>
+    <div class="parent">
+        <div class="son">2134</div>
+    </div>
+    <div>这里有一行文字，这里有一行文字</div>
+</body>
+</html>
